@@ -70,6 +70,7 @@ public class ItemListActivity extends FragmentActivity
                     .replace(R.id.item_detail_container, fragment)
                     .commit();
 
+
         } else {
             // In single-pane mode, simply start the detail activity
             // for the selected item ID.
